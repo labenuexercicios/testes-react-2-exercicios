@@ -19,7 +19,7 @@ Agora crie testes para garantir a renderização dos elementos do Modal (não pr
 
 ### Exercício 3
 
-Finalize criando o teste que garante a implementação correta do botão X: ao clicado, é disparada a função que fecha o modal.
+Finalize criando o teste de interação com user: ao clicar no botão de fechar, é disparada a função que fecha o modal.
 
 ### Terminou e sobrou tempo?
 
