@@ -6,7 +6,8 @@ Utilize esse template para criar um repo pessoal na sua conta e trabalhe nele.
 
 ## Enunciado
 
-Temos nesse repo uma Pokedex que consome a api POKEAPI. Sua tarefa é testar as funcionalidades o suficiente para ter confiança de que as renderizações e funcionalidades de interação estão implementadas corretamente. Mas atenção: ainda não vimos como lidar com fluxos assíncronos de testes (requisições a APIs), por isso foque no Modal (o componente que aparece ao clicar em um card).
+Temos nesse repo uma Pokedex que consome a api POKEAPI. Sua tarefa é testar as funcionalidades o suficiente para ter confiança de que as renderizações e funcionalidades de interação estão implementadas corretamente. <br>
+Mas atenção: ainda não vimos como lidar com fluxos assíncronos de testes (requisições a APIs), por isso foque no Modal (o componente que aparece ao clicar em um card).
 
 ### Exercício 1
 
