@@ -15,7 +15,7 @@ Analise as props do Modal. Descubra qual é a estrutura de seus dados e crie moc
 
 ### Exercício 2
 
-Agora crie testes para garantir a renderização dos elementos (não precisa testar interação).
+Agora crie testes para garantir a renderização dos elementos do Modal (não precisa testar interação).
 
 ### Exercício 3
 
