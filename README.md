@@ -1,1 +1,26 @@
-# testes-react-2-exercicios
+# Testes em React II - Exercício
+
+<strong>A partir dessa semana os exercícios voltam a ser independentes. Não se preocupe em centralizá-los em um mesmo repo.</strong>
+<br><br>
+Utilize esse template para criar um repo pessoal na sua conta e trabalhe nele.
+
+## Enunciado
+
+Temos nesse repo uma Pokedex que consome a api POKEAPI. Sua tarefa é testar as funcionalidades o suficiente para ter confiança de que as renderizações e funcionalidades de interação estão implementadas corretamente. Mas atenção: ainda não vimos como lidar com fluxos assíncronos de testes (requisições a APIs), por isso foque no Modal (o componente que aparece ao clicar em um card).
+
+### Exercício 1
+
+Analise as props do Modal. Descubra qual é a estrutura de seus dados e crie mocks para renderizar o componente.
+
+### Exercício 2
+
+Agora crie testes para garantir a renderização dos elementos (não precisa testar interação).
+
+### Exercício 3
+
+Finalize criando o teste que garante a implementação correta do botão X: ao clicado, é disparada a função que fecha o modal.
+
+### Terminou e sobrou tempo?
+
+Analise como você faria para lidar com o mock de uma requisição axios. O componente Card é um excelente caso de uso. <br>
+Não se estresse caso falhe aqui, pois veremos mocks mais avançados na próxima aula!
