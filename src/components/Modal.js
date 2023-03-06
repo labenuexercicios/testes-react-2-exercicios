@@ -133,7 +133,7 @@ function Modal(props) {
             </BottomDetails>
 
             <CloseButton onClick={closeModal}>
-                &#x274C;
+                ❌
             </CloseButton>
         </Container>
     );
