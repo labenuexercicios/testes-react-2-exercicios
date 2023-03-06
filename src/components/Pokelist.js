@@ -22,7 +22,8 @@ function Pokelist(props) {
             setPokemonList(response.data.results);
         });
     }, []);
-
+    console.log(activeModal)
+    console.log(closeModal)
     return (
         <Container>
             {pokemonList.map((pokemon) => (
