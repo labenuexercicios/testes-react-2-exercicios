@@ -41,7 +41,7 @@ const TypeText = styled.span`
 `
 
 function Pokecard(props) {
-    const { url, openModal } = props
+    const { url, openModal, name } = props
 
     const [allPokemonDetails, setAllPokemonDetails] = useState({})
 
@@ -60,9 +60,9 @@ function Pokecard(props) {
 
     return (
         <Container firstType={pokemonTypes[0]} onClick={() => openModal(allPokemonDetails)}>
-            <Name>{props.name}</Name>
+            <Name>{name}</Name>
             
-            <Image src={imageUrl} alt={props.name} />
+            <Image src={imageUrl} alt={name} />
             
             <Types>
                 {pokemonTypes.map((type) => (
