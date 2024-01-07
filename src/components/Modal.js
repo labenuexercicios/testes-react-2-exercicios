@@ -100,12 +100,16 @@ const CloseButton = styled.button`
 function Modal(props) {
     const { activeModal, closeModal } = props
 
+    console.log(activeModal)
+    console.log(closeModal)
+    
     const url = activeModal.sprites.front_default
     const pokeNumber = activeModal.id
     const name = activeModal.name
     const types = activeModal.types.map((type) => type.type.name)
     const weight = (activeModal.weight / 10).toFixed(1)
     const height = (activeModal.height / 10).toFixed(1)
+
 
     return (
         <Container>
